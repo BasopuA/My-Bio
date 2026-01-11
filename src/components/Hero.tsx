@@ -1,4 +1,4 @@
-import { resumeData } from "../data/resumeData";
+import  {resumeData}  from "../data/resumeData"; 
 
 const Hero = () => {
   const { personal } = resumeData;
