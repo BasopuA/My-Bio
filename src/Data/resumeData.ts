@@ -67,13 +67,13 @@ export const resumeData: ResumeData = {
   education: [
     {
       degree: "Advanced Diploma in Computer Science",
-      institution: "Currently pursuing",
+      institution: "Tshwane University of Technology - South Africa",
       period: "In Progress",
     },
     {
       degree: "Bachelor of Science: National Diploma in Computer Science",
       institution: "Tshwane University of Technology - South Africa",
-      period: "Expected May 2026",
+      period: "Completed",
       achievements: ["Highest achiever in Database Programming"],
     },
     {
