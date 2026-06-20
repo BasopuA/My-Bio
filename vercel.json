@@ -1,0 +1,22 @@
+{
+  "name": "anele-portfolio",
+  "version": 2,
+  "builds": [
+    {
+      "type": "vite",
+      "src": "package.json",
+      "use": "@vitejs/plugin-react"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "headers": {
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1; mode=block"
+      },
+      "continue": true
+    }
+  ]
+}

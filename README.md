@@ -1,73 +1,85 @@
-# React + TypeScript + Vite
+# Anele Basopu - Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing the professional experience and skills of Anele Basopu, a Software Developer and Logistics Professional based in Butterworth, South Africa.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[View Portfolio](https://anele-portfolio.vercel.app)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Modern Design**: Clean, professional layout with a green color scheme
+- **Responsive**: Fully optimized for mobile, tablet, and desktop devices
+- **SEO Optimized**: Meta tags for better search engine visibility
+- **Fast Performance**: Built with Vite for optimal loading speeds
+- **TypeScript**: Type-safe code for better maintainability
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React 19** - UI Framework
+- **TypeScript** - Type Safety
+- **Vite** - Build Tool
+- **Tailwind CSS** - Styling
+- **React Router** - Navigation
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📦 Installation
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/anele-portfolio.git
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚀 Deployment
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Deploy to Vercel
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run deploy
 ```
+
+Or connect your repository to [Vercel](https://vercel.com) for automatic deployments.
+
+### Deploy to Netlify
+
+The project is also configured for Netlify deployment. Simply connect your repository to Netlify and it will automatically detect the build settings.
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── About.tsx        # About section
+│   ├── Contact.tsx      # Contact section
+│   ├── Education.tsx    # Education section
+│   ├── Experiance.tsx   # Work experience section
+│   ├── Footer.tsx       # Footer component
+│   ├── Header.tsx       # Navigation header
+│   ├── Hero.tsx         # Hero/banner section
+│   └── Skills.tsx       # Technical skills section
+├── Data/
+│   └── resumeData.ts    # Portfolio data
+├── App.tsx              # Main application
+└── main.tsx             # Entry point
+```
+
+## 📧 Contact
+
+For inquiries, please reach out to:
+- Email: anelebasopu@gmail.com
+- Phone: +27835978556
+
+## 📄 License
+
+This project is open source and available under the MIT License.

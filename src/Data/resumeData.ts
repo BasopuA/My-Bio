@@ -36,9 +36,9 @@ export const resumeData: ResumeData = {
     location: "Butterworth, South Africa 4960",
     phone: "+27835978556",
     email: "anelebasopu@gmail.com",
-    photo: "/public/ace.jpeg", 
-    summary:
-      "Experienced professional with a strong background in software development and logistics... (see full above)",
+    photo: "/ace.jpeg",
+      summary:
+        "Dedicated and versatile professional with a unique blend of software development expertise and logistics experience. Currently completing a National Diploma in Computer Science at Tshwane University of Technology while gaining practical experience through Work Integrated Learning at the South African Radio Astronomy Observatory. Proficient in Java, Python (FastAPI), React, TypeScript, and database technologies. Strong problem-solving abilities with a track record of collaboration and achievement in both technical and operational environments.",
   },
   skills: [
     "Java",
