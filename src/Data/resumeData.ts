@@ -32,13 +32,13 @@ export interface Education {
 export const resumeData: ResumeData = {
   personal: {
     name: "Anele Basopu",
-    profession: "Software Developer & Logistics Professional",
+    profession: "Software Engineer",
     location: "Butterworth, South Africa 4960",
     phone: "+27835978556",
     email: "anelebasopu@gmail.com",
     photo: "/ace.jpeg",
       summary:
-        "Dedicated and versatile professional with a unique blend of software development expertise and logistics experience. Currently completing a National Diploma in Computer Science at Tshwane University of Technology while gaining practical experience through Work Integrated Learning at the South African Radio Astronomy Observatory. Proficient in Java, Python (FastAPI), React, TypeScript, and database technologies. Strong problem-solving abilities with a track record of collaboration and achievement in both technical and operational environments.",
+        "Dedicated software engineer with practical experience in software development through Work Integrated Learning at the South African Radio Astronomy Observatory (SARAO). Currently pursuing an Advanced Diploma in Computer Science while working as a Graduate in Training Software – Work Integrated Learning at SARAO. Proficient in Java, Python (FastAPI), React, TypeScript, and database technologies. Strong problem-solving abilities with a focus on building scalable software solutions.",
   },
   skills: [
     "Java",
@@ -53,30 +53,23 @@ export const resumeData: ResumeData = {
   ],
   experience: [
     {
-      title: "Work Integrated Learning",
-      company: "South African Radio Astronomy Observatory, Cape Town",
-      period: "Aug 2025 – Jan 2026",
+      title: "Graduate in Training Software – Work Integrated Learning",
+      company: "South African Radio Astronomy Observatory (SARAO), Cape Town",
+      period: "Aug 2025 – Present",
       description: [
-        "Managed an employee project as part of training for a major initiative.",
-        "Learned Python using FastAPI and React with TypeScript during the project.",
-        "Collaborated with team members to achieve target results.",
+        "Work Integrated Learning student at SARAO from August 2025 – July 2026, progressing to Graduate in Training Software – Work Integrated Learning from July 2026 – June 2029 (3-year programme).",
+        "Developed software solutions using Python (FastAPI), React, and TypeScript.",
+        "Collaborated with cross-functional teams to deliver projects within the SARAO Graduate Programme.",
         "Awarded certificate in Advanced Python Training by SARAO.",
       ],
     },
-    {
-      title: "Dispatch Clerk",
-      company: "Novus Print Holdings",
-      period: "Jan 2017 – Jan 2023",
-      description: [],
-    },
-    {
-      title: "Load Master",
-      company: "Novus Print Holdings",
-      period: "May 2011 – Jan 2017",
-      description: [],
-    },
   ],
   education: [
+    {
+      degree: "Advanced Diploma in Computer Science",
+      institution: "Currently pursuing",
+      period: "In Progress",
+    },
     {
       degree: "Bachelor of Science: National Diploma in Computer Science",
       institution: "Tshwane University of Technology - South Africa",
